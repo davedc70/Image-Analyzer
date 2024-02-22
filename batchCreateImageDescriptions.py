@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 
 # Set your API key here
-OpenAI.api_key = '<YOUR_OPENAI_API_KEY>'
+OpenAI.api_key = 'os.environ.get("OPENAI_API_KEY')
 
 # Initialize the OpenAI client
 client = OpenAI()
